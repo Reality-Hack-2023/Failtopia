@@ -1,0 +1,1 @@
+Once forked, close and reopen the unity project to build the CSPROJ files. Then setup an account on https://dashboard.photonengine.com/en-US/ and create your app and voice app and put those into the photon setup wizard

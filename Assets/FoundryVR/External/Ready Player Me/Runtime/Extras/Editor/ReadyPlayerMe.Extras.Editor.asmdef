@@ -1,0 +1,19 @@
+{
+    "name": "ReadyPlayerMe.Extras.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9e5e2b77448aeab43b17e6475f395209",
+        "GUID:d7ab27640dcb380488291b031ad7209b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

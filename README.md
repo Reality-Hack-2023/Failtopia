@@ -1,3 +1,31 @@
-# VR-Foundry
-Multiplayer VR Unity Template that is completely free and open source.
-<div style="text-align:center"><img src ="https://static.wixstatic.com/media/5ff487_cb393827746143329ee66bac907b19cf~mv2.png/v1/fill/w_541,h_332,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5ff487_cb393827746143329ee66bac907b19cf~mv2.png" alt="book cover" width="350"/></div>
+# foundry-enterprise/Foundry.Enterprise
+
+
+
+## Getting Started
+
+Download links:
+
+SSH clone URL: ssh://git@git.jetbrains.space/cyberhubsyndicate/foundry-enterprise/Foundry.Enterprise.git
+
+HTTPS clone URL: https://git.jetbrains.space/cyberhubsyndicate/foundry-enterprise/Foundry.Enterprise.git
+
+
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+## Prerequisites
+
+What things you need to install the software and how to install them.
+
+```
+Examples
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a production system.
+
+## Resources
+
+Add links to external resources for this project, such as CI server, bug tracker, etc.

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/FoundryVR/Core/Models/TeleportRing.meta
+guid: 581a8d0b1528d0d4e9aa1344e2ee28b3
+folderAsset: yes
+DefaultImporter:
+========
+guid: 2257051ce2765394dbff0d8fac4aaa2d
+PrefabImporter:
+>>>>>>>> develop:Assets/FoundryVR/Core/Models/TeleportRing/TeleportCircle.prefab.meta
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
