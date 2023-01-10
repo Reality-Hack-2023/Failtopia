@@ -1,16 +1,8 @@
-# foundry-enterprise/Foundry.Enterprise
+# Foundry Open Photon PUN example
 
 
 
 ## Getting Started
-
-Download links:
-
-SSH clone URL: ssh://git@git.jetbrains.space/cyberhubsyndicate/foundry-enterprise/Foundry.Enterprise.git
-
-HTTPS clone URL: https://git.jetbrains.space/cyberhubsyndicate/foundry-enterprise/Foundry.Enterprise.git
-
-
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -19,7 +11,9 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them.
 
 ```
-Examples
+OpenXR,
+XR Interaction Toolkit (preferably 2.3),
+Input system
 ```
 
 ## Deployment
