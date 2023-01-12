@@ -17,6 +17,8 @@ public class AvatarRoot : MonoBehaviour
     public InputAction gripR, triggerR, thumbR, gripL, triggerL, thumbL;
     [Range(0,90)] public float totalFingerCurve;
     [Range(0,90)] public float minFingerCurve;
+    [Range(0,90)] public float minThumbCurve;
+    [Range(0,90)] public float totalThumbCurve;
 
     //Enable all our inputs to make sure they work
     private void Start()

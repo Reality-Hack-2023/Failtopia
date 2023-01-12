@@ -132,7 +132,7 @@ public class AvatarSolver : MonoBehaviour
                 transform.root.GetComponent<PhotonView>().ObservedComponents.Add(view);
             }
 
-            finger.localRotation = Quaternion.Lerp(finger.localRotation, Quaternion.Euler(new Vector3(AR.totalFingerCurve * AR.thumbR.ReadValue<float>()  + AR.minFingerCurve, 0, 0)), 10 * Time.deltaTime);
+            finger.localRotation = Quaternion.Lerp(finger.localRotation, Quaternion.Euler(new Vector3(AR.totalThumbCurve * AR.thumbR.ReadValue<float>()  + AR.minThumbCurve, 0, 0)), 10 * Time.deltaTime);
         }
     }
 
@@ -180,7 +180,7 @@ public class AvatarSolver : MonoBehaviour
                 transform.root.GetComponent<PhotonView>().ObservedComponents.Add(view);
             }
 
-            finger.localRotation = Quaternion.Lerp(finger.localRotation, Quaternion.Euler(new Vector3(AR.totalFingerCurve * AR.thumbL.ReadValue<float>()  + AR.minFingerCurve, 0, 0)), 10 * Time.deltaTime);
+            finger.localRotation = Quaternion.Lerp(finger.localRotation, Quaternion.Euler(new Vector3(AR.totalThumbCurve * AR.thumbL.ReadValue<float>()  + AR.minThumbCurve, 0, 0)), 10 * Time.deltaTime);
         }
     }
 }
