@@ -31,7 +31,11 @@ public class ExpressionControll : MonoBehaviour
         }
 
 
-        face.SetBlendShapeWeight(51, Mathf.Lerp(face.GetBlendShapeWeight(51), Mathf.Clamp(loudness, 0, 100), 6 * Time.deltaTime));
+        if (face != null)
+        {
+            face.SetBlendShapeWeight(51,
+                Mathf.Lerp(face.GetBlendShapeWeight(51), Mathf.Clamp(loudness, 0, 100), 6 * Time.deltaTime));
+        }
 
         if (loudness < threshold)
         {

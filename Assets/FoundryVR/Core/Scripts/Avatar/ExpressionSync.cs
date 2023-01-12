@@ -15,7 +15,7 @@ public class ExpressionSync : MonoBehaviourPunCallbacks, IPunObservable
 
     private void Update()
     {
-        if(face == null)
+        if(face == null && GetComponent<SkinnedMeshRenderer>() != null)
             face = GetComponent<SkinnedMeshRenderer>();
     }
 
@@ -33,7 +33,10 @@ public class ExpressionSync : MonoBehaviourPunCallbacks, IPunObservable
 
     private void FixedUpdate()
     {
-        float smoothMouth = Mathf.Lerp(face.GetBlendShapeWeight(51), mouthOpenAmount, 6 * Time.deltaTime);
-        face.SetBlendShapeWeight(51, Mathf.Clamp(smoothMouth, 0, 100));
+        if (face != null)
+        {
+            float smoothMouth = Mathf.Lerp(face.GetBlendShapeWeight(51), mouthOpenAmount, 6 * Time.deltaTime);
+            face.SetBlendShapeWeight(51, Mathf.Clamp(smoothMouth, 0, 100));
+        }
     }
 }
