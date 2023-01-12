@@ -982,7 +982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1266595664077461424, guid: c0bac60fe2bd50e4c9ce97b3bff5a931, type: 3}
       propertyPath: onlineSceneIndex
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1266595664077461424, guid: c0bac60fe2bd50e4c9ce97b3bff5a931, type: 3}
       propertyPath: offlineSceneIndex

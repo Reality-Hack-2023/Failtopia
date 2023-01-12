@@ -8,18 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FoundryVR/Core/Scenes/Samples/Offline.unity
     guid: a50ce6b92b274ce409f15614db612193
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/FoundryVR/Core/Scenes/Samples/gameScene.unity
-    guid: 0ba60b363984bdf47b02aba2506e0ca9
   - enabled: 1
     path: Assets/FoundryVR/Core/Scenes/Samples/Online.unity
     guid: c3a4e15f45d41194f888d6d422ae0b1b
