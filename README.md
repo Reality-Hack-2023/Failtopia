@@ -25,6 +25,8 @@ Photon API keys for Photon PUN and Photon Voice (both FREE)
 YOU MUST GO to the following links to generate your own API Keys and use them to build your own networked app (so as not to conflict with other apps):
 https://www.photonengine.com/en/PUN#
 https://www.photonengine.com/en-us/Voice
+
+Add your keys to /Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
 ```
 
 ## Basic Controls
