@@ -11,6 +11,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install, the software, and how to install them.
 
+You will want to fork this Github repo so that any future updates to the SDK, we can push to your project through this repo.
+More info on forking:
+https://docs.github.com/en/get-started/quickstart/fork-a-repo
+
 ```
 Unity Version 2021.3.11f1
 OpenXR
