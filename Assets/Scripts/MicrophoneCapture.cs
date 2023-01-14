@@ -6,6 +6,7 @@ public class MicrophoneCapture : MonoBehaviour
 {
     // Boolean flags shows if the microphone is connected   
     private bool micConnected = false;
+    private bool hasRecorded = false;
 
     //The maximum and minimum available recording frequencies    
     private int minFreq;
@@ -42,8 +43,21 @@ public class MicrophoneCapture : MonoBehaviour
         }
     }
 
-    public void Record()
-    {
+    public void OnPickUp(){
+        if (hasRecorded){
+            PlayRecording();
+        }
+        else{
+            Record();
+        }
+    }
+
+    void PlayRecording(){
+        //play previous recording
+        goAudioSource.Play();
+    }
+
+    public void Record(){
         //If there is a microphone    
         if (micConnected)
         {
@@ -62,9 +76,12 @@ public class MicrophoneCapture : MonoBehaviour
         }
     }
   
-    public void StopRecord()   
+    public void StopRecord()
         {
-            Microphone.End(null); //Stop the audio recording    
-            goAudioSource.Play(); //Playback the recorded audio    
+            if (!hasRecorded){
+                Microphone.End(null); //Stop the audio recording    
+                // goAudioSource.Play(); //Playback the recorded audio    
+                hasRecorded = true;
+            }
         }
 }
