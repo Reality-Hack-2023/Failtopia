@@ -5,17 +5,17 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/FoundryVR/Core/Scenes/Samples/Offline.unity
     guid: a50ce6b92b274ce409f15614db612193
   - enabled: 0
     path: Assets/FoundryVR/Core/Scenes/Samples/Online.unity
     guid: c3a4e15f45d41194f888d6d422ae0b1b
-  - enabled: 1
-    path: Assets/FailureScene.unity
+  - enabled: 0
+    path: Assets/FailtopiaOffline.unity
     guid: 81d19b1257c90e04d97fe0d65a3c00fb
   - enabled: 1
-    path: Assets/FailtopiaScene.unity
+    path: Assets/FailtopiaPlay.unity
     guid: 50d2c3f016ea6d84a8476b716f9e594e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d1e616a9349926945a2b409e579d0eab, type: 2}
