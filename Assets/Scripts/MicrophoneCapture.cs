@@ -9,7 +9,7 @@ public class MicrophoneCapture : MonoBehaviour
     public Material materialRecorded;
     // Boolean flags shows if the microphone is connected   
     private bool micConnected = false;
-    private bool hasRecorded = false;
+    public bool hasRecorded = false;
 
     //The maximum and minimum available recording frequencies    
     private int minFreq;
@@ -20,6 +20,10 @@ public class MicrophoneCapture : MonoBehaviour
 
     void Start()
     {
+        if (hasRecorded)
+        {
+            this.GetComponent<MeshRenderer>().material = materialRecorded;
+        }
         //Check if there is at least one microphone connected    
         if (Microphone.devices.Length <= 0)
         {
