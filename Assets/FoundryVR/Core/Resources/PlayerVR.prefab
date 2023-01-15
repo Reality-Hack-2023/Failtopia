@@ -8425,7 +8425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52ed80acb5e2af84f9a20cce094f6bbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  face: {fileID: 0}
+  face: {fileID: 5213730955987832141}
   bones: []
 --- !u!1 &7660479821865883041
 GameObject:
@@ -8780,7 +8780,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5574114128413835077, guid: 95e328c5c0d108548ba95a28b4c32de7, type: 3}
+  - {fileID: 2100000, guid: be2c382f522695c4fa3947ac8e1d4457, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
