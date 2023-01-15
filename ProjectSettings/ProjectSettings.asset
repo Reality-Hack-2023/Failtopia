@@ -334,7 +334,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.CyberhubSyndicate.FoundryEnterprise
+    Android: com.TeamFailure.Failtopia
     Standalone: com.CyberhubSyndicate.FoundryEnterpriseDemo
   buildNumber:
     Standalone: 0
