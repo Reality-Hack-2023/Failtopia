@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: cc4a362cb6008a84abedf901e542c6d3
+guid: 3fb9db63ddadfc94683e681e058bb746
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Board2
+    second: {fileID: 2800000, guid: cbf9a74d99a51cb4193d60b33ca7f4e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: boardmaterial
+    second: {fileID: 2800000, guid: d0aa947434cfde84e9d67316a6a20f67, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
