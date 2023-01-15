@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/FailtopiaOffline.unity
     guid: 81d19b1257c90e04d97fe0d65a3c00fb
-  - enabled: 1
+  - enabled: 0
     path: Assets/FailtopiaPlay.unity
     guid: 50d2c3f016ea6d84a8476b716f9e594e
+  - enabled: 1
+    path: Assets/FailtopiaGit2.unity
+    guid: 71a2736ebcd65f646a3287efcb9e3333
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d1e616a9349926945a2b409e579d0eab, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2d7926164cd09734381e6f69fc480b2d, type: 2}
