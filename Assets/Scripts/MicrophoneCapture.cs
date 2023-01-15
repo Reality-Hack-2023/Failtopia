@@ -4,6 +4,9 @@ using System.Collections;
 [RequireComponent(typeof(AudioSource))]
 public class MicrophoneCapture : MonoBehaviour
 {
+
+    // Material that the tincan will use once it has a recording in it
+    public Material materialRecorded;
     // Boolean flags shows if the microphone is connected   
     private bool micConnected = false;
     private bool hasRecorded = false;
@@ -82,6 +85,7 @@ public class MicrophoneCapture : MonoBehaviour
                 Microphone.End(null); //Stop the audio recording    
                 // goAudioSource.Play(); //Playback the recorded audio    
                 hasRecorded = true;
+                this.GetComponent<MeshRenderer>().material = materialRecorded;
             }
         }
 }
