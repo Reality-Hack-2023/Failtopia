@@ -22,10 +22,10 @@ public class MicrophoneCapture : MonoBehaviour
 
     void Start()
     {
-        if (hasRecorded)
-        {
-            this.GetComponent<MeshRenderer>().material = materialRecorded;
-        }
+        // if (hasRecorded)
+        // {
+        //     this.GetComponent<MeshRenderer>().material = materialRecorded;
+        // }
         //Check if there is at least one microphone connected    
         if (Microphone.devices.Length <= 0)
         {
@@ -89,7 +89,7 @@ public class MicrophoneCapture : MonoBehaviour
   
     public void StopRecord()
         {
-            float timeSinceStart = Time.time - startRecordingTime;
+            // float timeSinceStart = Time.time - startRecordingTime;
             if (!hasRecorded){
                 Microphone.End(null); //Stop the audio recording    
                 // goAudioSource.Play(); //Playback the recorded audio    
