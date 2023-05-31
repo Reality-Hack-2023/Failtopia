@@ -14,6 +14,7 @@ public class MicrophoneCapture : MonoBehaviour
     //The maximum and minimum available recording frequencies    
     private int minFreq;
     private int maxFreq;
+    private float startRecordingTime;
 
     //A handle to the attached AudioSource    
     private AudioSource goAudioSource;
@@ -71,7 +72,8 @@ public class MicrophoneCapture : MonoBehaviour
             //If the audio from any microphone isn't being captured    
             if (!Microphone.IsRecording(null))
             {
-                //Start recording and store the audio captured from the microphone at the AudioClip in the AudioSource    
+                //Start recording and store the audio captured from the microphone at the AudioClip in the AudioSource  
+                startRecordingTime = Time.time;  
                 goAudioSource.clip = Microphone.Start(null, true, 20, maxFreq);
             }
             else // No microphone    
@@ -85,7 +87,8 @@ public class MicrophoneCapture : MonoBehaviour
   
     public void StopRecord()
         {
-            if (!hasRecorded){
+            float timeSinceStart = Time.time - startRecordingTime;
+            if (!hasRecorded && timeSinceStart > 2){
                 Microphone.End(null); //Stop the audio recording    
                 // goAudioSource.Play(); //Playback the recorded audio    
                 hasRecorded = true;
