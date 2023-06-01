@@ -1,7 +1,6 @@
 # REPO-025
 Welcome to Failtopia - The world where we celebrate and connect through stories of our failures.
 
-Image from
 ![Screenshot of the entrance to Failtopia](https://media.githubusercontent.com/media/Reality-Hack-2023/Failtopia/main/Images/failtopia-no-qr.png)
 
 
